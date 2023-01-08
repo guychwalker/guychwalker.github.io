@@ -30,12 +30,13 @@ form {
 	height: 40px;
 	width: 20px;
 	max-width: 100%;
-	padding: 0 20px;
+	padding: 0 10px;
 	font-size: 5px;
 	border: 1px solid #695b5b;
-	border-radius: 4px;
+	border-radius: 1px;
 	margin-right: 10px;
 	box-sizing: border-box;
+	background-color: #695b5b;
   }
 
 form input[type="submit"] {
