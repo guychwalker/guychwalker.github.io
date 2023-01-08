@@ -24,8 +24,8 @@ form {
 }
 
 form input[type="password"] {
-	flex: 1;
 	height: 40px;
+	width: 15;
 	padding: 0 20px;
 	font-size: 16px;
 	border: 1px solid #695b5b;
