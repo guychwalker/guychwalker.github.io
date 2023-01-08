@@ -15,13 +15,16 @@ h1 {
 }
 
 form {
-	max-width: 100px;
+	max-width: 300px;
 	margin: 0 auto;
 	padding: 20px;
 	background-color: #695b5b;
 	border: 1px solid #695b5b;
 	border-radius: 4px;
-}
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+  }
 
 form input[type="password"] {
 	height: 40px;
@@ -39,7 +42,7 @@ form input[type="submit"] {
 	height: 40px;
 	font-size: 16px;
 	background-color: #a89292;
-	color: #a89292;
+	color: #463d3d;
 	border: 0;
 	border-radius: 4px;
 	cursor: pointer;
